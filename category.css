@@ -1,0 +1,21 @@
+*{
+    font-family: sans-serif;
+}
+.categoryone{
+    display:flex;
+    justify-content:space-evenly;
+}
+.travel{
+
+    border: 2px solid transparent;
+    height:450px;
+    width: 20%;
+    padding: 10px 10px 10px 10px;
+    animation: all 0.3s ease-in 0s;
+    border-radius: 10px;
+    
+}
+.travel:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform :scale(1.02);
+}
