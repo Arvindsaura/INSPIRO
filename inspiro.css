@@ -1,6 +1,5 @@
 #navbar{
     font-family: sans-serif;
-    font-size: 16px;
     background-color: #84D2F6;
     display: flex;
     align-items: center;
@@ -8,7 +7,7 @@
     color:white;
 
 }
-* {
+#navbar{
     padding: 0;
     margin: 0;
     font-family:sans-serif;
@@ -32,8 +31,8 @@
     padding: 20px 25px;
     color: #FFF;
     text-decoration: none;
-    text-align: center;
-    font-size: 16px;
+    text-align:left;
+    font-size: 18px;
     }
     ul li ul.dropdown li {
     display: block;
@@ -49,7 +48,7 @@
     }
     ul li a:hover {
     background: rgba(19, 60, 85, 1);
-    border-radius: 25px;
+    border-radius: 20px;
     }
     ul li:hover ul.dropdown{
     display: block;
@@ -58,23 +57,26 @@
 
 #navbar{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #84D2F6;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
     color:white;
-    position: sticky;
+    position: relative;
 }
 
 #aboutus{
     padding:20px 25px;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
 }
 #aboutus:hover{
-    border-radius: 25px;
+    
     background-color: #133c55;
     position:static;
 }
@@ -82,9 +84,13 @@
     padding:20px 25px;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    animation: all 2s ease-in 5s ;
+    border-radius: 20px;
+    transition: all 0.3s ease-in;
 }
 #home:hover{
-    border-radius: 25px;
+    
     background-color: #133c55;
 }
 #logo{
@@ -99,6 +105,7 @@
     outline: none !important;
     border: 2px solid white;
     border-radius: 25px;
+    transition: all 0.3s ease-in;
 }
 #searchbox:hover{
     border:2.5px solid #133c55;
@@ -107,13 +114,13 @@
 }
 ::placeholder{
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #searchbox input{
     background:transparent;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     flex:1;
     border: 0;
     outline: none;
@@ -135,10 +142,11 @@
     background: transparent;
     outline:transparent;
     border: 0;
-    border-radius: 25px;
+    border-radius: 20px;
     border: 2px solid transparent;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
+    transition: all 0.3s ease-in;
     
 }
 #loginbutton:hover{
@@ -153,11 +161,37 @@
     border: 0;
     border-radius: 25px;
     border: 2px solid white;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
+    transition: all 0.3s ease-in;
     
 }
 #signinbutton:hover{
     border:2.5px solid #133c55;
     background-color: #133c55;
+}
+*{
+    font-family: sans-serif;
+}
+.categoryone{
+    display:flex;
+    justify-content:space-evenly;
+}
+.travel{
+
+    border: 2px solid transparent;
+    height:450px;
+    width: 20%;
+    padding: 10px 10px 10px 10px;
+    animation: all 0.3s ease-in 0s;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.travel:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform :scale(1.05);
+}
+#two{
+    height: 1000px;
 }
