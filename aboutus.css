@@ -4,6 +4,12 @@
     display: flex;
     
 }
+.container img{
+    
+    height: 5vh;
+    width: auto;
+    margin-left: 0vh;
+}
 
 .imageaboutus{
     height: 100vh;
