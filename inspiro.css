@@ -375,6 +375,7 @@ footer{
     padding-top: 5vh;
     justify-content: center;
     text-align: center;
+    font-size: 2vh;
 }
 #fsupport a{
     text-decoration: none;
@@ -389,16 +390,18 @@ footer{
     width:15%;
     height:10%;
     background-color: #3586FF;
-    padding-top: 5vh;
+    padding-top: 12vh;
     text-align: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
     
 }
 #fcontact a{
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: vh;
+    font-size: 2vh;
 }
 #fcontact a:hover{
     color: black;
@@ -407,6 +410,7 @@ footer{
    
     
     height: 20vh;
+    width: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -425,7 +429,15 @@ footer{
 padding: 1.5vw;
 margin-left:15vw;
    border-radius: 50%;
+   height: 2vh;
+   width: 2vh;
    
+}
+#gototop  i{
+    transform: scale(1.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #gototop a:hover{
     border:2px solid black;
