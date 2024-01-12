@@ -1,0 +1,97 @@
+#navbarextend{
+    height: 55vh;
+    background-color: black;
+    width: 100vw;
+}
+#blogtitle{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#sociallinks{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#sociallinks a{
+    text-decoration: none;
+    color: white;
+}
+#sociallinks div{
+    background-color: black;
+    border: 1px solid white;
+    height: 3vh;
+    width: 3vh;
+    padding: 0.5vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    transform: scale(1.5);
+}
+#author{
+    color: white;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+}
+#authorimg{ width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    
+    
+}
+#authorname{
+    font-family: 'Poppins', sans-serif;
+}
+#readtime{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    font-family: 'Poppins', sans-serif;
+}
+#date{
+    margin-right: 10vh;
+    font-family: 'Poppins', sans-serif;
+}
+#content{
+    width: 100vw;
+    height: 500vh;
+    display: flex;
+    flex-direction: row;
+}
+#contentleft{
+    width: 20vw;
+    border: 1px;
+    background-color: aqua;
+}
+#contentright{
+    width: 20vw;
+    border: 1px;
+    
+    
+}
+#contentmain{
+    width: 60vw;
+    border: 1px;
+  
+}
+#toc{
+    position: sticky;
+    top:15vh;
+    margin-left: 25%;
+    margin-top: 5vh;
+}
+#toc a{
+    text-decoration: none;
+    color: black;
+}
