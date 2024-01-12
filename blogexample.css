@@ -17,8 +17,8 @@
     color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 10vh;
+    margin-left: 5vh;
 }
 #sociallinks a{
     text-decoration: none;
@@ -72,13 +72,13 @@
 #contentleft{
     width: 25vw;
     border: 1px;
-    background-color: aqua;
+    background-color: beige;
     height: 810vh;
 }
 #contentright{
     width: 25vw;
     border: 1px;
-    height: 800vh;
+    height: 810vh;
     
 }
 #contentmain{
@@ -89,13 +89,14 @@
     margin-top: 10vh;
     text-align: justify;
     overflow: hidden;
-    height: 800vh;
+    height: 810vh;
     font-family: 'Poppins', sans-serif;
 }
 #toc{
     position: sticky;
     top:15vh;
-    margin-left: 25%;
+    bottom: 30vh;
+    margin-left: 5vh;
     margin-top: 5vh;
 }
 #toc a{
@@ -215,20 +216,25 @@
 #relatedblog{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .related{
-    width:32vh;
+    width:30vh;
     height: 10vw;
     background-color: transparent;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
     
 }
 .related a{
     text-decoration: none;
     color: red;
 }
+.related:hover{
+    transform: scale(1.03);
+}
 #related1{
+    
     height: 80%;
     background-color:black;
     background-image: url("1_1.png");
@@ -246,4 +252,83 @@
     background-color:black;
     background-image: url("4.png");
     background-size: cover;
+}
+.readmore{
+    height: 10vw;
+    width: 25vw;
+    margin: 2vh;}
+.readmore img{
+    height: 4vw;
+    width: 4vw;
+
+
+}
+.readmore div{
+    display: flex;
+    align-items: center;
+}
+#read{
+    position: sticky;
+    top:15vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    
+}
+#footer{
+    position: relative;
+    bottom: -330vh;
+}
+.waves18{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background:url('wave.png');
+}
+.waves18 #wave118{
+    
+    opacity: 1;
+    
+    animation: animatewaves 4s linear infinite;
+}
+@keyframes animatewaves{
+0%{background-position-x:1000px;}
+100%{
+    background-position-x:0px ;
+}
+}
+.waves18 #wave218{
+    
+    opacity: 0.5;
+    
+    animation: animatewaves_2 3s linear infinite;
+}
+@keyframes animatewaves_2{
+0%{background-position-x:0px;}
+100%{
+    background-position-x:1000px ;
+}
+}
+.waves18 #wave318{
+    
+    opacity: 0.2;
+    
+    animation: animatewaves_2 4s linear infinite;
+}
+
+.waves18 #wave418{
+
+    opacity: 0.7;
+    
+    animation: animatewaves 3s linear infinite;
+}
+#fcontainer18{
+    
+    width: 100vw;
+    display: flex;
+    
+    justify-content: center;
+    height: 30vh;
+    background-color: #3586FF;
 }
